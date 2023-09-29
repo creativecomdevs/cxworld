@@ -1,0 +1,208 @@
+08-17-2023 @ 16:11:35 - INFO: loading payment form;
+08-17-2023 @ 16:11:35 - INFO: POST `https://gate.sitesway.sa/api/v1/purchases/`
+'{"success_callback":"https:\\/\\/cx-world.creativecom.org\\/ar\\/?wc-api=wc_gateway_spell&id=259&action=paid","success_redirect":"https:\\/\\/cx-world.creativecom.org\\/ar\\/?wc-api=wc_gateway_spell&id=259&action=paid","failure_redirect":"https:\\/\\/cx-world.creativecom.org\\/ar\\/?wc-api=wc_gateway_spell&id=259&action=cancel","cancel_redirect":"https:\\/\\/cx-world.creativecom.org\\/ar\\/?wc-api=wc_gateway_spell&id=259&action=cancel","creator_agent":"Woocommerce v3 module: v1.1.2","reference":"259","platform":"woocommerce","purchase":{"currency":"SAR","language":"en","notes":"\\u0627\\u0644\\u0645\\u0624\\u062a\\u0645\\u0631 \\u0627\\u0644\\u0631\\u0633\\u0648\\u0645","products":[{"name":"Payment","price":99900,"quantity":1}]},"brand_id":"7a8755b0-b81e-43ba-a897-92e78e4bc1f1","client":{"email":"vyacheslavzhubrin@gmail.com","phone":"+79531903672","full_name":" ","street_address":" ","country":"","city":"","zip_code":"","shipping_street_address":" ","shipping_country":"","shipping_city":"","shipping_zip_code":""}}'
+array (
+  0 => 'Content-type: application/json',
+  1 => 'Authorization: Bearer J1-lLchTFsBgztHhoA8QxXH6kGENhn4R72VlP1KxYBWu8P3bbxHf_6aGnwPZ1FPizjPoMHHWYtkh2peWexD35A==',
+);
+08-17-2023 @ 16:11:35 - INFO: received response: {"client":{"client_type":null,"email":"vyacheslavzhubrin@gmail.com","phone":"+79531903672","full_name":"","personal_code":"","legal_name":"","brand_name":"","registration_number":"","tax_number":"","bank_account":"","bank_code":"","street_address":"","city":"","zip_code":"","country":"","state":"","shipping_street_address":"","shipping_city":"","shipping_zip_code":"","shipping_country":"","shipping_state":"","cc":[],"bcc":[],"delivery_methods":[{"method":"email","options":{}},{"method":"text_message","options":{"custom_message":""}}]},"purchase":{"currency":"SAR","products":[{"name":"Payment","price":99900,"quantity":"1.0000","discount":0,"tax_percent":"0.00","category":""}],"language":"en","notes":"المؤتمر الرسوم","debt":0,"subtotal_override":null,"total_tax_override":null,"total_discount_override":null,"total_override":null,"total":99900,"request_client_details":[],"timezone":"UTC","due_strict":false,"email_message":"","shipping_options":[],"payment_method_details":{},"has_upsell_products":false},"payment":null,"issuer_details":{"brand_name":"CX KSA","website":"","legal_name":"CX KSA","registration_number":"","tax_number":"","legal_street_address":"","legal_country":"SA","legal_city":"","legal_zip_code":"","bank_accounts":[{"bank_account":"","bank_code":""}]},"transaction_data":{"payment_method":"","flow":"payform","extra":{},"country":"","attempts":[]},"status":"created","status_history":[{"status":"created","timestamp":1692277895}],"viewed_on":null,"force_recurring":false,"company_id":"43063b34-94b0-44f6-b8ab-b3d22534ac9f","is_test":true,"user_id":null,"brand_id":"7a8755b0-b81e-43ba-a897-92e78e4bc1f1","billing_template_id":null,"order_id":null,"client_id":"39e3cc78-39aa-4946-907f-1dc62d7caa54","send_receipt":false,"is_recurring_token":false,"recurring_token":null,"skip_capture":false,"reference_generated":"SW138","reference":"259","issued":"2023-08-17","due":1692281495,"refund_availability":"none","refundable_amount":0,"currency_conversion":null,"payment_method_whitelist":null,"success_redirect":"https://cx-world.creativecom.org/ar/?wc-api=wc_gateway_spell&id=259&action=paid","failure_redirect":"https://cx-world.creativecom.org/ar/?wc-api=wc_gateway_spell&id=259&action=cancel","cancel_redirect":"https://cx-world.creativecom.org/ar/?wc-api=wc_gateway_spell&id=259&action=cancel","success_callback":"https://cx-world.creativecom.org/ar/?wc-api=wc_gateway_spell&id=259&action=paid","marked_as_paid":false,"upsell_campaigns":[],"referral_campaign_id":null,"referral_code":null,"referral_code_details":null,"referral_code_generated":null,"retain_level_details":null,"can_retrieve":false,"can_chargeback":false,"creator_agent":"Woocommerce v3 module: v1.1.2","platform":"woocommerce","product":"purchases","created_from_ip":"145.14.151.22","invoice_url":null,"checkout_url":"https://payments.sitesway.sa/p/3a85dfdf-464f-42fd-9b1f-9e9e6a029da8/","direct_post_url":"https://payments.sitesway.sa/p/3a85dfdf-464f-42fd-9b1f-9e9e6a029da8/","created_on":1692277895,"updated_on":1692277895,"type":"purchase","id":"3a85dfdf-464f-42fd-9b1f-9e9e6a029da8"};
+08-17-2023 @ 16:11:35 - INFO: got checkout url, redirecting: 259;
+08-17-2023 @ 16:12:47 - INFO: received callback: Array
+(
+    [wc-api] => wc_gateway_spell
+    [id] => 259
+    [action] => cancel
+)
+;
+08-17-2023 @ 16:12:47 - INFO: received success callback: 259;
+08-17-2023 @ 16:12:47 - INFO: validating payment: 3a85dfdf-464f-42fd-9b1f-9e9e6a029da8;
+08-17-2023 @ 16:12:47 - INFO: GET `https://gate.sitesway.sa/api/v1/purchases/3a85dfdf-464f-42fd-9b1f-9e9e6a029da8/`
+array (
+)
+array (
+  0 => 'Content-type: application/json',
+  1 => 'Authorization: Bearer J1-lLchTFsBgztHhoA8QxXH6kGENhn4R72VlP1KxYBWu8P3bbxHf_6aGnwPZ1FPizjPoMHHWYtkh2peWexD35A==',
+);
+08-17-2023 @ 16:12:47 - INFO: received response: {"client":{"client_type":null,"email":"vyacheslavzhubrin@gmail.com","phone":"+79531903672","full_name":"","personal_code":"","legal_name":"","brand_name":"","registration_number":"","tax_number":"","bank_account":"","bank_code":"","street_address":"","city":"","zip_code":"","country":"","state":"","shipping_street_address":"","shipping_city":"","shipping_zip_code":"","shipping_country":"","shipping_state":"","cc":[],"bcc":[],"delivery_methods":[{"method":"email","options":{}},{"method":"text_message","options":{"custom_message":""}}]},"purchase":{"currency":"SAR","products":[{"name":"Payment","price":99900,"quantity":"1.0000","discount":0,"tax_percent":"0.00","category":""}],"language":"en","notes":"المؤتمر الرسوم","debt":0,"subtotal_override":null,"total_tax_override":null,"total_discount_override":null,"total_override":null,"total":99900,"request_client_details":[],"timezone":"UTC","due_strict":false,"email_message":"","shipping_options":[],"payment_method_details":{},"has_upsell_products":false},"payment":null,"issuer_details":{"brand_name":"CX KSA","website":"","legal_name":"CX KSA","registration_number":"","tax_number":"","legal_street_address":"","legal_country":"SA","legal_city":"","legal_zip_code":"","bank_accounts":[{"bank_account":"","bank_code":""}]},"transaction_data":{"payment_method":"","flow":"payform","extra":{},"country":"","attempts":[]},"status":"viewed","status_history":[{"status":"created","timestamp":1692277895},{"status":"viewed","timestamp":1692277896}],"viewed_on":1692277896,"force_recurring":false,"company_id":"43063b34-94b0-44f6-b8ab-b3d22534ac9f","is_test":true,"user_id":null,"brand_id":"7a8755b0-b81e-43ba-a897-92e78e4bc1f1","billing_template_id":null,"order_id":null,"client_id":"39e3cc78-39aa-4946-907f-1dc62d7caa54","send_receipt":false,"is_recurring_token":false,"recurring_token":null,"skip_capture":false,"reference_generated":"SW138","reference":"259","issued":"2023-08-17","due":1692281495,"refund_availability":"none","refundable_amount":0,"currency_conversion":null,"payment_method_whitelist":null,"success_redirect":"https://cx-world.creativecom.org/ar/?wc-api=wc_gateway_spell&id=259&action=paid","failure_redirect":"https://cx-world.creativecom.org/ar/?wc-api=wc_gateway_spell&id=259&action=cancel","cancel_redirect":"https://cx-world.creativecom.org/ar/?wc-api=wc_gateway_spell&id=259&action=cancel","success_callback":"https://cx-world.creativecom.org/ar/?wc-api=wc_gateway_spell&id=259&action=paid","marked_as_paid":false,"upsell_campaigns":[],"referral_campaign_id":null,"referral_code":null,"referral_code_details":null,"referral_code_generated":null,"retain_level_details":null,"can_retrieve":false,"can_chargeback":false,"creator_agent":"Woocommerce v3 module: v1.1.2","platform":"woocommerce","product":"purchases","created_from_ip":"145.14.151.22","invoice_url":null,"checkout_url":"https://payments.sitesway.sa/p/3a85dfdf-464f-42fd-9b1f-9e9e6a029da8/","direct_post_url":"https://payments.sitesway.sa/p/3a85dfdf-464f-42fd-9b1f-9e9e6a029da8/","created_on":1692277895,"updated_on":1692277896,"type":"purchase","id":"3a85dfdf-464f-42fd-9b1f-9e9e6a029da8"};
+08-17-2023 @ 16:12:47 - INFO: success check result: array (
+  'client' => 
+  array (
+    'client_type' => NULL,
+    'email' => 'vyacheslavzhubrin@gmail.com',
+    'phone' => '+79531903672',
+    'full_name' => '',
+    'personal_code' => '',
+    'legal_name' => '',
+    'brand_name' => '',
+    'registration_number' => '',
+    'tax_number' => '',
+    'bank_account' => '',
+    'bank_code' => '',
+    'street_address' => '',
+    'city' => '',
+    'zip_code' => '',
+    'country' => '',
+    'state' => '',
+    'shipping_street_address' => '',
+    'shipping_city' => '',
+    'shipping_zip_code' => '',
+    'shipping_country' => '',
+    'shipping_state' => '',
+    'cc' => 
+    array (
+    ),
+    'bcc' => 
+    array (
+    ),
+    'delivery_methods' => 
+    array (
+      0 => 
+      array (
+        'method' => 'email',
+        'options' => 
+        array (
+        ),
+      ),
+      1 => 
+      array (
+        'method' => 'text_message',
+        'options' => 
+        array (
+          'custom_message' => '',
+        ),
+      ),
+    ),
+  ),
+  'purchase' => 
+  array (
+    'currency' => 'SAR',
+    'products' => 
+    array (
+      0 => 
+      array (
+        'name' => 'Payment',
+        'price' => 99900,
+        'quantity' => '1.0000',
+        'discount' => 0,
+        'tax_percent' => '0.00',
+        'category' => '',
+      ),
+    ),
+    'language' => 'en',
+    'notes' => 'المؤتمر الرسوم',
+    'debt' => 0,
+    'subtotal_override' => NULL,
+    'total_tax_override' => NULL,
+    'total_discount_override' => NULL,
+    'total_override' => NULL,
+    'total' => 99900,
+    'request_client_details' => 
+    array (
+    ),
+    'timezone' => 'UTC',
+    'due_strict' => false,
+    'email_message' => '',
+    'shipping_options' => 
+    array (
+    ),
+    'payment_method_details' => 
+    array (
+    ),
+    'has_upsell_products' => false,
+  ),
+  'payment' => NULL,
+  'issuer_details' => 
+  array (
+    'brand_name' => 'CX KSA',
+    'website' => '',
+    'legal_name' => 'CX KSA',
+    'registration_number' => '',
+    'tax_number' => '',
+    'legal_street_address' => '',
+    'legal_country' => 'SA',
+    'legal_city' => '',
+    'legal_zip_code' => '',
+    'bank_accounts' => 
+    array (
+      0 => 
+      array (
+        'bank_account' => '',
+        'bank_code' => '',
+      ),
+    ),
+  ),
+  'transaction_data' => 
+  array (
+    'payment_method' => '',
+    'flow' => 'payform',
+    'extra' => 
+    array (
+    ),
+    'country' => '',
+    'attempts' => 
+    array (
+    ),
+  ),
+  'status' => 'viewed',
+  'status_history' => 
+  array (
+    0 => 
+    array (
+      'status' => 'created',
+      'timestamp' => 1692277895,
+    ),
+    1 => 
+    array (
+      'status' => 'viewed',
+      'timestamp' => 1692277896,
+    ),
+  ),
+  'viewed_on' => 1692277896,
+  'force_recurring' => false,
+  'company_id' => '43063b34-94b0-44f6-b8ab-b3d22534ac9f',
+  'is_test' => true,
+  'user_id' => NULL,
+  'brand_id' => '7a8755b0-b81e-43ba-a897-92e78e4bc1f1',
+  'billing_template_id' => NULL,
+  'order_id' => NULL,
+  'client_id' => '39e3cc78-39aa-4946-907f-1dc62d7caa54',
+  'send_receipt' => false,
+  'is_recurring_token' => false,
+  'recurring_token' => NULL,
+  'skip_capture' => false,
+  'reference_generated' => 'SW138',
+  'reference' => '259',
+  'issued' => '2023-08-17',
+  'due' => 1692281495,
+  'refund_availability' => 'none',
+  'refundable_amount' => 0,
+  'currency_conversion' => NULL,
+  'payment_method_whitelist' => NULL,
+  'success_redirect' => 'https://cx-world.creativecom.org/ar/?wc-api=wc_gateway_spell&id=259&action=paid',
+  'failure_redirect' => 'https://cx-world.creativecom.org/ar/?wc-api=wc_gateway_spell&id=259&action=cancel',
+  'cancel_redirect' => 'https://cx-world.creativecom.org/ar/?wc-api=wc_gateway_spell&id=259&action=cancel',
+  'success_callback' => 'https://cx-world.creativecom.org/ar/?wc-api=wc_gateway_spell&id=259&action=paid',
+  'marked_as_paid' => false,
+  'upsell_campaigns' => 
+  array (
+  ),
+  'referral_campaign_id' => NULL,
+  'referral_code' => NULL,
+  'referral_code_details' => NULL,
+  'referral_code_generated' => NULL,
+  'retain_level_details' => NULL,
+  'can_retrieve' => false,
+  'can_chargeback' => false,
+  'creator_agent' => 'Woocommerce v3 module: v1.1.2',
+  'platform' => 'woocommerce',
+  'product' => 'purchases',
+  'created_from_ip' => '145.14.151.22',
+  'invoice_url' => NULL,
+  'checkout_url' => 'https://payments.sitesway.sa/p/3a85dfdf-464f-42fd-9b1f-9e9e6a029da8/',
+  'direct_post_url' => 'https://payments.sitesway.sa/p/3a85dfdf-464f-42fd-9b1f-9e9e6a029da8/',
+  'created_on' => 1692277895,
+  'updated_on' => 1692277896,
+  'type' => 'purchase',
+  'id' => '3a85dfdf-464f-42fd-9b1f-9e9e6a029da8',
+);
+08-17-2023 @ 16:12:49 - INFO: payment not successful: 259;

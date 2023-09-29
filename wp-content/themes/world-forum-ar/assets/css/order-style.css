@@ -1,0 +1,414 @@
+p.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received {
+    margin-bottom: 4vw;
+    width: 40%;
+    font-size: 2.8vw;
+    margin-top: 4vw;
+}
+
+ul.woocommerce-order-overview.woocommerce-thankyou-order-details.order_details {
+    width: 100%;
+    display: flex;
+}
+
+h2.woocommerce-order-details__title {
+    margin-bottom: 2vw;
+}
+
+.woocommerce-table.woocommerce-table--order-details.shop_table.order_details {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.woocommerce-order {
+    background-color: #000;
+}
+
+.woocommerce-table.woocommerce-table--order-details.shop_table.order_details>tr {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+strong.product-quantity {
+    display: none;
+}
+
+thead tr {
+    display: flex;
+    width: 104.8%;
+}
+
+th.woocommerce-table__product-name.product-name {
+    width: 60%;
+    order: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+th.woocommerce-table__product-name.product-name.count {
+    width: 25%;
+    order: 2;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+th.woocommerce-table__product-table.product-total {
+    width: 10.5%;
+    order: 3;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+tr.woocommerce-table__line-item.order_item {
+    display: flex;
+    width: 104.8%;
+}
+
+td.woocommerce-table__product-name.product-name {
+    width: 60%;
+    order: 1;
+}
+
+td.woocommerce-table__product-total.product-total {
+    width: 10.5%;
+    order: 3;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+td.woocommerce-table__product-name.product-name.order-count {
+    width: 25%;
+    order: 2;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+tfoot tr {
+    display: flex;
+    width: 100%;
+}
+
+tfoot tr th {
+    width: 90%;
+}
+
+.woocommerce-order .woocommerce table.shop_table tfoot tr th td {
+    padding: 9px 5% 12px;
+}
+
+.order-again {
+    display: none;
+}
+
+.woocommerce table.shop_table tfoot:last-child th {
+    border-bottom: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.woocommerce table.shop_table tfoot:last-child td {
+    border-bottom: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    width: 11%;
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.woocommerce table.shop_table {
+    margin: 0 -1px 80px 0;
+}
+
+.woocommerce-table.woocommerce-table--custom-fields.shop_table.custom-fields>tr>th {
+    border-bottom: none;
+}
+
+.woocommerce .woocommerce-customer-details .woocommerce-customer-details--phone::before,
+.woocommerce .woocommerce-customer-details .woocommerce-customer-details--email::before {
+    display: none;
+}
+
+.woocommerce .woocommerce-customer-details .woocommerce-customer-details--email,
+.woocommerce .woocommerce-customer-details .woocommerce-customer-details--phone {
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.woocommerce .woocommerce-customer-details address {
+    padding: 40px 0 0;
+}
+
+.tribe-tickets__registration-footer {
+    display: none;
+}
+
+.woocommerce-order-details__title {
+    color: #ff9f18;
+}
+
+.tribe-event-details>a {
+    color: #ff9f18;
+}
+
+.woocommerce-column__title {
+    color: #ff9f18;
+}
+
+.woocommerce-table.woocommerce-table--custom-fields.shop_table.custom-fields {
+    display: none;
+}
+
+.woocommerce-order-overview__email.email,
+.woocommerce-order-overview__total.total {
+    display: none;
+}
+
+.woocommerce {
+    width: 100%;
+}
+
+.tribe-tickets__registration-submit {
+    font-family: Codec, sans-serif !important;
+    padding: 20px 70px !important;
+    border-radius: 200px !important;
+    font-size: 24px !important;
+    background: #ff9f18 !important;
+    position: absolute;
+    top: -126px;
+    left: 50%;
+    transform: translateX(-100%);
+    margin-left: -37px !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.tribe-tickets__registration-submit:hover {
+    background-color: #c27200 !important;
+}
+
+.tribe-tickets__registration-footer {
+    position: relative;
+}
+
+.loader {
+    background: none repeat scroll 0 0 #000;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.loader_inner {
+    overflow: hidden;
+    font-size: 10px;
+    text-indent: -9999em;
+    width: 11em;
+    height: 11em;
+    border-radius: 50%;
+    background: rgba(255, 159, 24, 1);
+    background: -moz-linear-gradient(left, rgba(255, 159, 24, 1) 10%, rgba(101, 171, 248, 0) 42%);
+    background: -webkit-linear-gradient(left, rgba(255, 159, 24, 1) 10%, rgba(101, 171, 248, 0) 42%);
+    background: -o-linear-gradient(left, rgba(255, 159, 24, 1) 10%, rgba(101, 171, 248, 0) 42%);
+    background: -ms-linear-gradient(left, rgba(255, 159, 24, 1) 10%, rgba(101, 171, 248, 0) 42%);
+    background: linear-gradient(to right, rgba(255, 159, 24, 1) 10%, rgba(101, 171, 248, 0) 42%);
+    -webkit-animation: load3 1.4s infinite linear;
+    animation: load3 1.4s infinite linear;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    position: absolute;
+    left: calc(50% - 40px);
+    top: calc(50% - 40px);
+}
+
+.loader_inner:before {
+    width: 50%;
+    height: 50%;
+    background: rgba(255, 159, 24, 1);
+    border-radius: 100% 0 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+}
+
+.loader_inner:after {
+    background: black;
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    content: '';
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@-webkit-keyframes load3 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes load3 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 1440px) {
+    .tribe-tickets__registration-submit {
+        padding: 17px 40px !important;
+        top: -115px;
+    }
+}
+
+@media (max-width: 991px) {
+    p.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received {
+        font-size: 4.8vw;
+        width: 52%;
+    }
+
+    .tribe-tickets__registration-submit {
+        font-size: 16px !important;
+        padding: 11px 35px !important;
+        top: -90px;
+    }
+}
+
+@media (max-width: 768px) {
+    .woocommerce-table.woocommerce-table--order-details.shop_table.order_details {
+        font-size: 12px;
+    }
+
+    .woocommerce .woocommerce-customer-details address {
+        padding: 20px 0 0;
+    }
+
+    .woocommerce table.shop_table {
+        margin: 0 -1px 180px 0;
+    }
+
+    .tribe-tickets__registration-submit {
+        top: 20px;
+        left: 0;
+    }
+
+    .tribe-tickets__registration-submit {
+        right: 0;
+        left: auto;
+        transform: translateX(0);
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    p.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received {
+        margin-bottom: 12vw;
+        width: 90%;
+        font-size: 8.8vw;
+        margin-top: 10vw;
+    }
+
+    h2.woocommerce-order-details__title {
+        margin-bottom: 6vw;
+    }
+
+    th.woocommerce-table__product-table.product-total {
+        width: 21%;
+    }
+
+    th.woocommerce-table__product-name.product-name.count {
+        width: 25%;
+    }
+
+    td.woocommerce-table__product-name.product-name {
+        width: 50%;
+    }
+
+    td.woocommerce-table__product-name.product-name.order-count {
+        width: 21%;
+    }
+
+    td.woocommerce-table__product-total.product-total {
+        width: 23.5%;
+    }
+
+    thead tr {
+        width: 100%;
+    }
+
+    tr.woocommerce-table__line-item.order_item {
+        width: 100%;
+    }
+
+    tfoot tr th {
+        width: 90%;
+    }
+
+    .woocommerce table.shop_table tfoot:last-child td {
+        width: 22%;
+    }
+
+    td.woocommerce-table__product-name.product-name {
+        width: 60%;
+    }
+
+    td.woocommerce-table__product-name.product-name.order-count {
+        width: 25%;
+    }
+
+    td.woocommerce-table__product-total.product-total {
+        width: 21%;
+        border-left: 1px solid rgba(255, 255, 255, 0.4);
+    }
+}
+
+#billing_email_field {
+    direction: rtl;
+}
+
+.woocommerce-order-overview__date.date,
+.tribe-event-date-start,
+.tribe-event-date-end,
+.woocommerce-customer-details--phone,
+.woocommerce-order-overview__order.order {
+    font-family: Somar, sans-serif;
+}
+
+em {
+    font-style: normal;
+    display: flex;
+    justify-content: end;
+}
+
+.tribe-event-date-end {
+    display: flex;
+}
+
+.event-tickets .tribe-tickets__form .tribe-required,
+.woocommerce form .form-row .required {
+    font-family: Codec, sans-serif;
+}
+
+.tribe-common .tribe-tickets__notice--error {
+    position: absolute !important;
+    background-color: var(--tec-color-background-secondary) !important;
+    top: 20px;
+    z-index: 999;
+}
+
+@media (max-width: 768px) {
+    .tribe-common .tribe-tickets__notice--error {
+        top: 450px;
+    }
+}
